@@ -2,3 +2,10 @@
     font-family: 'Saira Extra Condensed', sans-serif;
     font-family: 'Indie Flower', cursive;
 }
+.navbar-default .navbar-header a{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Indie Flower', cursive;  
+}
+.navbar-default{
+    margin-bottom: 0;
+}

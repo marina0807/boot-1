@@ -1,68 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        
-        <div class="jumbotron text-center">
-            <div class="container">
-                <h1>Dog Album</h1>
-                <p>Quit Puppies</p>
-               
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="#">Dog Album</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>-->
+                
+            <ul class="nav navbar-nav navbar-right">
+                <li><a data-toggle="modal" href='#modal-id'>Sign UP</a>
+
+                </li>
+                <!--<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>-->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+
+
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>Dog Album</h1>
+            <p>Quit Puppies</p>
+
+        </div>
+    </div>
+
+    <div class="container">
+
+
+
+        <div class="row">
+
+            <div class="col-xs-12  col-md-4">
+
+                <div class="well text-center">
+
+                    <img src="http://communabuilder.tapuz.co.il/UsersFolders/RakBanot/images/2204200638797.jpg" class="img-responsive img-circle"
+                        alt="Image">
+                    <h4>Quit Puppies</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    <button type="button" class="btn btn-primary">Learn more</button>
+
+                </div>
+            </div>
+            <div class="col-xs-12  col-md-4">
+
+                <div class="well text-center">
+
+                    <img src="https://ae01.alicdn.com/kf/HTB1kI3TPVXXXXcCaFXXq6xXFXXXc/%D7%99%D7%A4%D7%94-%D7%97%D7%AA%D7%95%D7%9C-%D7%9B%D7%9C%D7%91-%D7%A7%D7%98%D7%9F-%D7%97%D7%99%D7%95%D7%AA-%D7%9E%D7%97%D7%9E%D7%93-%D7%90%D7%A4%D7%95%D7%93-%D7%A7%D7%99%D7%A5-%D7%90%D7%A4%D7%95%D7%93-%D7%A6%D7%9E%D7%A8-%D7%A8%D7%9A-%D7%9B%D7%9C%D7%91%D7%9C%D7%91-%D7%97%D7%9E%D7%95%D7%93-%D7%91%D7%92%D7%93%D7%99-%D7%A1%D7%AA%D7%99%D7%95-%D7%98%D7%93%D7%99.jpg_200x200.jpg"
+                        class="img-responsive img-circle" alt="Image">
+                    <h4>Quit Puppy</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    <button type="button" class="btn btn-primary">Learn more</button>
+
+                </div>
+            </div>
+            <div class="col-xs-12  col-md-4">
+
+                <div class="well text-center">
+
+                    <img src="https://ae01.alicdn.com/kf/HTB1IoFjXZrHK1Jjy1zdq6zTwXXay/KIMHOME-%D7%9C%D7%97%D7%99%D7%95%D7%AA-%D7%9E%D7%97%D7%9E%D7%93-%D7%9E%D7%99%D7%98%D7%95%D7%AA-%D7%9B%D7%9C%D7%91-%D7%97%D7%9E%D7%95%D7%93%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D-%D7%9B%D7%9C-%D7%A2%D7%95%D7%A0%D7%95%D7%AA-%D7%A2%D7%9E%D7%99%D7%93-%D7%9C%D7%9E%D7%99%D7%9D-%D7%91%D7%99%D7%AA-%D7%9B%D7%9C%D7%91-%D7%9E%D7%99%D7%98%D7%AA-%D7%9B%D7%9C%D7%91.jpg_200x200.jpg"
+                        class="img-responsive img-circle" alt="Image">
+                    <h4>Quit Puppy</h4>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                    <button type="button" class="btn btn-primary">Learn more</button>
+
+                </div>
             </div>
         </div>
-        
-        <div class="container">
-            
-       
-        
-        <div class="row">
-          
-          <div class="col-xs-12  col-md-4">
-             
-             <div class="well text-center">
-                 
-                 <img src="http://communabuilder.tapuz.co.il/UsersFolders/RakBanot/images/2204200638797.jpg" class="img-responsive img-circle" alt="Image">
-                 <h4>Quit Puppies</h4>
-                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                 <button type="button" class="btn btn-primary">Learn more</button>                
-                 
-             </div>   
-          </div>
-          <div class="col-xs-12  col-md-4">
-                
-                <div class="well text-center">
-                    
-                    <img src="https://ae01.alicdn.com/kf/HTB1kI3TPVXXXXcCaFXXq6xXFXXXc/%D7%99%D7%A4%D7%94-%D7%97%D7%AA%D7%95%D7%9C-%D7%9B%D7%9C%D7%91-%D7%A7%D7%98%D7%9F-%D7%97%D7%99%D7%95%D7%AA-%D7%9E%D7%97%D7%9E%D7%93-%D7%90%D7%A4%D7%95%D7%93-%D7%A7%D7%99%D7%A5-%D7%90%D7%A4%D7%95%D7%93-%D7%A6%D7%9E%D7%A8-%D7%A8%D7%9A-%D7%9B%D7%9C%D7%91%D7%9C%D7%91-%D7%97%D7%9E%D7%95%D7%93-%D7%91%D7%92%D7%93%D7%99-%D7%A1%D7%AA%D7%99%D7%95-%D7%98%D7%93%D7%99.jpg_200x200.jpg" class="img-responsive img-circle" alt="Image">
-                    <h4>Quit Puppy</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                    <button type="button" class="btn btn-primary">Learn more</button>                
-                    
-                </div>   
-             </div>
-             <div class="col-xs-12  col-md-4">
-                    
-                    <div class="well text-center">
+    </div>
+
+    <div class="modal fade" id="modal-id">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form action="" method="POST" role="form">
+
+                        <div class="form-group">
+                            <label for="usern">User Name</label>
+                            <input type="text" class="form-control" id="usaen" placeholder="Input User Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Pssword</label>
+                            <input type="password" class="form-control" id="password" placeholder="Input password">
+                        </div>
                         
-                        <img src="https://ae01.alicdn.com/kf/HTB1IoFjXZrHK1Jjy1zdq6zTwXXay/KIMHOME-%D7%9C%D7%97%D7%99%D7%95%D7%AA-%D7%9E%D7%97%D7%9E%D7%93-%D7%9E%D7%99%D7%98%D7%95%D7%AA-%D7%9B%D7%9C%D7%91-%D7%97%D7%9E%D7%95%D7%93%D7%94-%D7%9C%D7%9B%D7%9C%D7%91%D7%99%D7%9D-%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D-%D7%9B%D7%9C-%D7%A2%D7%95%D7%A0%D7%95%D7%AA-%D7%A2%D7%9E%D7%99%D7%93-%D7%9C%D7%9E%D7%99%D7%9D-%D7%91%D7%99%D7%AA-%D7%9B%D7%9C%D7%91-%D7%9E%D7%99%D7%98%D7%AA-%D7%9B%D7%9C%D7%91.jpg_200x200.jpg" class="img-responsive img-circle" alt="Image">
-                        <h4>Quit Puppy</h4>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>                
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">
+                                Important
+                            </label>
+                        </div>
                         
-                    </div>   
-                 </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
-    </div> 
-    
-    
-      
-    </body>
+    </div>
+
+</body>
+
 </html>
